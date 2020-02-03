@@ -10,13 +10,196 @@
 <body>
   <div class="container">
     <div class="heading">
-      <p class="logo">Etsy</p>
+      <p class="logo">ETSY</p>
       <input type="text" name="search" id="search" placeholder="whiskey" />
       <div class="topitems">
-        <h6 class="sign_in">Sign in</h6>
+        <p class="sign_in">Sign in</p>
         <img class="cart" src="./assets/cart.png" />
       </div>
+  </div>
+  <div class="categories">
+    <p>Jewelry & Accessories</p>
+    <p>Clothing & Shoes</p>
+    <p>Home & Living</p>
+    <p>Wedding & Party</p>
+    <p>Toys & Entertainment</p>
+    <p>Art & Collectibles</p>
+    <p>Craft Supplies</p>
+    <p>Vintage</p>
+    <p>Gifts</p>
+  </div>
+  <div class="whiskeycategories">
+    <p>whiskey svg</p>
+    <p>personalized whiskey</p>
+    <p>whiskey poster</p>
+    <p>whiskey decanter</p>
+    <p>whiskey shirt</p>
+    <p>whiskey set</p>
+    <p>whiskey decor</p>
+    <p>whiskey glass</p>
+    <p>whiskey glasses</p>
+    <p>whiskey barrel</p>
+  </div>
+  <div class="body">
+    <div class="sidebar">
+      <h4>All categories</h4>
+      <div class="allcategories">
+        <p>Home & Living</p>
+        <p>Art & Collectibles</p>
+        <p>Clothing</p>
+        <p>Weddings</p>
+      </div>
+
+      <h4>+ Show More</h4>
+      <h4 class="sidebartitles">Special Offers</h4>
+      <input type="checkbox" />
+      Free Shipping <br />
+      <input type="checkbox" />
+      On sale
+      <h4 class="sidebartitles">Ready to ship in</h4>
+      <input type="checkbox" />
+      1 business day
+      <br />
+      <input type="checkbox" />
+      1 - 3 business days
+
+      <h4 class="sidebartitles">Price($)</h4>
+      <input type="radio" />
+      Any price <br />
+      <input type="radio" />
+      Under $25 <br />
+      <input type="radio" />
+      $25 to $75 <br />
+      <input type="radio" />
+      $75 to $100 <br />
+      <input type="radio" />
+      Over $100 <br />
+      <input type="radio" />
+      Custom <br />
+      <div class="pricesearch">
+        <input type="text" class="customprice" placeholder="Low" />
+        <p>to</p>
+        <input type="text" class="customprice" placeholder="High" />
+      </div>
+
+      <h4 class="sidebartitles">Materials</h4>
+      <input type="checkbox" />
+      Ceramic <br />
+      <input type="checkbox" />
+      Cork <br />
+      <input type="checkbox" />
+      Fabric <br />
+      <input type="checkbox" />
+      Glass <br />
+      <input type="checkbox" />
+      Metal <br />
+      <h4>+ Show More</h4>
+
+      <h4 class="sidebartitles">Color</h4>
+      <input type="checkbox" />
+      Beige <br />
+      <input type="checkbox" />
+      Black <br />
+      <input type="checkbox" />
+      Blue <br />
+      <input type="checkbox" />
+      Bronze <br />
+      <input type="checkbox" />
+      Brown <br />
+      <h4>+ Show More</h4>
+
+      <h4 class="sidebartitles">Can be personalized</h4>
+      <input type="checkbox" />
+      Yes <br />
+      <input type="checkbox" />
+      No <br />
+
+      <h4 class="sidebartitles">Occasion</h4>
+      <input type="checkbox" />
+      Anniversary <br />
+      <input type="checkbox" />
+      Baby shower <br />
+      <input type="checkbox" />
+      Bachelor party <br />
+      <input type="checkbox" />
+      Bachelorette party <br />
+      <input type="checkbox" />
+      Birthday <br />
+      <h4>+ Show More</h4>
+
+      <h4 class="sidebartitles">Holiday</h4>
+      <input type="checkbox" />
+      Christmas <br />
+      <input type="checkbox" />
+      Cinco de Mayo <br />
+      <input type="checkbox" />
+      Easter <br />
+      <input type="checkbox" />
+      Father's Day <br />
+      <input type="checkbox" />
+      Halloween <br />
+      <h4>+ Show More</h4>
+
+      <h4 class="sidebartitles">Shop location</h4>
+      <input type="radio" />
+      Anywhere <br />
+      <input type="radio" />
+      United States<br />
+      <input type="radio" />
+      Custom<br />
+      <input
+        type="text"
+        class="shoplocation"
+        placeholder="Enter location"
+      />
+
+      <h4 class="sidebartitles">Item type</h4>
+      <input type="radio" />
+      All items <br />
+      <input type="radio" />
+      Handmade<br />
+      <input type="radio" />
+      Vintage<br />
+
+      <h4 class="sidebartitles">Ordering options</h4>
+      <input type="checkbox" />
+      Accepts Etsy gift cards <br />
+      <input type="checkbox" />
+      Can be gift-wrapped <br />
+      <input type="checkbox" />
+      Customizable <br />
+      <input type="checkbox" />
+
+      <h4>Ship to</h4>
+      <select class="shipto">
+        <option>United States</option>
+        <option>Canada</option>
+        <option>Mexico</option>
+        <option>the Netherlands</option>
+        <option>Belgium</option>
+        <option>Luxemburg</option>
+        <option>Germany</option>
+        <option>Austria</option>
+        <option>France</option>
+        <option>UK</option>
+        <option>China</option>
+        <option>Singapore</option>
+        <option>Russia</option>
+        <option>Australia</option>
+        <option>New Zeeland</option>
+        <option>India</option>
+      </select>
     </div>
+    <div class="wrapper">
+      <div id="products"></div>
+    </div>
+  </div>
+  <script src="./items.js"></script>
+  <script src="./template.js"></script>
+</div>
+</body>
+</html>
+
   <!--div class="Departments" class="header1">
     <div>Jewelry & Accessories</div>
     <div>Clothing & Shoes</div>
@@ -130,7 +313,7 @@
           <p class="price">$12.00</p>
       </div>
     </div> -->
-  script src="items.js"></script>
-  script src="templates.js"></script>
+  <script script src="items.js"></script>
+  <script src="templates.js"></script>
 </body>
 </html>
